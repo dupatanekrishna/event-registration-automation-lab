@@ -253,4 +253,19 @@ This is more than a form. It demonstrates practical workflow automation concepts
 - privacy-aware automation
 - failure-path testing
 
-These patterns also apply to onboarding, training enrollment, interview screening, workshop registration, access approval, and internal platform workflows.
+These patterns also apply to onboarding, training enrollment, candidate screening, workshop registration, access approval, and internal platform workflows.
+
+## What You Should Be Able to Explain After Completing This Lab
+
+You should be able to:
+
+- Explain the complete event-driven flow from form submission to qualification and invitation.
+- Explain how Google Forms, Sheets, Apps Script, Calendar, Meet, and email integrate in the implemented solution.
+- Explain why `onFormSubmit` is appropriate for the eligibility workflow.
+- Explain the pass and fail paths and how the automation prevents duplicate invitations.
+- Explain why scheduled triggers are used for reminders and registration closure.
+- Explain how state is tracked in the response sheet and why idempotency matters.
+- Explain the privacy controls required before publishing automation code or evidence.
+- Describe how the same architecture maps to Microsoft Forms, Power Automate, Outlook, and Teams.
+- Explain how to validate both successful and unsuccessful workflow paths.
+- Reuse the same automation patterns for onboarding, training, approvals, and other event-driven workflows.
